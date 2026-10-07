@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aurelia Estates | Luxury Real Estate</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                AURELIA
+                <span>ESTATES</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#properties" class="nav-btn">
+                Explore Properties
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <p class="hero-tag">
+                    LUXURY REAL ESTATE
+                </p>
+
+                <h1>
+                    Find a Place<br>
+                    <span>Worth Calling Home.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Discover exceptional properties, remarkable architecture,
+                    and homes designed for a life beyond ordinary.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#properties" class="btn btn-primary">
+                        Explore Properties
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Talk to an Agent
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span></span>
+                SCROLL TO EXPLORE
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROPERTY SEARCH ================= -->
+        <section class="property-search">
+
+            <div class="container search-box">
+
+                <div class="search-item">
+                    <small>LOCATION</small>
+                    <strong>Choose Location</strong>
+                </div>
+
+                <div class="search-item">
+                    <small>PROPERTY TYPE</small>
+                    <strong>All Properties</strong>
+                </div>
+
+                <div class="search-item">
+                    <small>PRICE RANGE</small>
+                    <strong>Any Price</strong>
+                </div>
+
+                <button class="search-btn">
+                    Search Properties
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED PROPERTIES ================= -->
+        <section class="properties section" id="properties">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-label">OUR COLLECTION</p>
+
+                        <h2>
+                            Featured <span>Properties</span>
+                        </h2>
+                    </div>
+
+                    <a href="#" class="view-all">
+                        View All Properties →
+                    </a>
+
+                </div>
+
+
+                <div class="property-grid" id="propertyGrid" aria-live="polite">
+                    <p class="property-load-message">Loading properties...</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <div class="about-image-card">
+                        <span>EST. 2026</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        ABOUT AURELIA
+                    </p>
+
+                    <h2>
+                        Where Exceptional<br>
+                        <span>Spaces Become Stories.</span>
+                    </h2>
+
+                    <p>
+                        Aurelia Estates is a luxury real estate brand dedicated
+                        to connecting discerning clients with extraordinary
+                        properties and exceptional living spaces.
+                    </p>
+
+                    <p>
+                        From modern city residences to private architectural
+                        masterpieces, we believe every property should feel
+                        like more than an address.
+                    </p>
+
+                    <a href="#" class="text-link">
+                        Discover Our Story →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+        <section class="services section" id="services">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <p class="section-label">
+                        WHAT WE OFFER
+                    </p>
+
+                    <h2>
+                        Our <span>Services</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+                        <span class="service-number">01</span>
+                        <h3>Property Sales</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJhFly94qMLzBqtevtj5ukT2F3LevkMrgWkKJNQ9NXg&s=10" alt="">
+                        <p>
+                            Expert guidance to help you buy or sell
+                            exceptional properties with confidence.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <span class="service-number">02</span>
+                        <h3>Luxury Rentals</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbd4E6d7Ss3dVmno5v9H_LVofb0dn8TiZP16a1FU5iRw&s=10" alt="">
+                        <p>
+                            Access carefully selected residences in
+                            some of the world's most desirable locations.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <span class="service-number">03</span>
+                        <h3>Property Advisory</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Lu13rxDqqfvpSiGMG0KnGpqbMwJBP5eD1n5inUJTiX2NF5BMrDbFyZCb&s=10" alt="">
+                        <p>
+                            Strategic real estate advice tailored around
+                            your goals, lifestyle, and investment plans.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+   <section class="contact-section" id="contact">
+
+    <div class="section-heading reveal">
+        <span>GET IN TOUCH</span>
+        <h2>Let's Find Your<br><em>Perfect Place.</em></h2>
+        <p>
+            Tell us what you're looking for and our property specialist
+            will help you find the right property.
+        </p>
+    </div>
+
+    <div class="contact-wrapper">
+
+        <!-- Contact Information -->
+        <div class="contact-info reveal">
+
+            <div class="contact-info-card">
+                <div class="contact-icon">☎</div>
+                <div>
+                    <span>CALL US</span>
+                    <h3>+92 300 0000000</h3>
+                    <p>Mon – Sat · 10:00 AM – 7:00 PM</p>
+                </div>
+            </div>
+
+            <div class="contact-info-card">
+                <div class="contact-icon">✉</div>
+                <div>
+                    <span>EMAIL US</span>
+                    <h3>hello@aureliaestates.com</h3>
+                    <p>We usually respond within 24 hours.</p>
+                </div>
+            </div>
+
+            <div class="contact-info-card">
+                <div class="contact-icon">⌖</div>
+                <div>
+                    <span>OUR OFFICE</span>
+                    <h3>Karachi, Pakistan</h3>
+                    <p>Luxury Property Consultants</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Inquiry Form -->
+        <div class="contact-form-box reveal">
+
+            <div class="form-top">
+                <span>PROPERTY INQUIRY</span>
+                <h3>Tell Us What You're Looking For</h3>
+            </div>
+
+            <form id="contactForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+92 3XX XXXXXXX"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interest">I'm Interested In</label>
+
+                        <select id="interest" name="interest" required>
+                            <option value="">Select property type</option>
+                            <option value="Luxury Villa">Luxury Villa</option>
+                            <option value="Penthouse">Penthouse</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="House">House</option>
+                            <option value="Commercial Property">Commercial Property</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell us about the property you're looking for..."
+                        required
+                    ></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary contact-submit">
+                    Send Inquiry
+                    <span>→</span>
+                </button>
+
+                <p class="form-note">
+                    Your information is kept private and used only to respond
+                    to your property inquiry.
+                </p>
+
+                <div id="formMessage" role="status" aria-live="polite"></div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    AURELIA
+                    <span>ESTATES</span>
+                </a>
+
+                <p>
+                    Exceptional properties.<br>
+                    Extraordinary living.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© 2026 Aurelia Estates. All rights reserved.</p>
+            <p>Luxury Real Estate</p>
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
